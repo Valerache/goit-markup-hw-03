@@ -32,6 +32,7 @@ h3,
 h4,
 h5,
 h6,
+ul,
 p {
   margin: 0;
 }
@@ -46,6 +47,7 @@ img {
   padding-right: 15px;
   margin: 0 auto;
   display: flex;
+  
   outline: 2px solid red;
   outline-offset: -2px;
 }
@@ -87,13 +89,17 @@ img {
 
 /* Header */
 
-.main-nav {
-  display: flex;
+.header-container {
+  /* display: flex; */
 }
 
-.nav-list {
+/* .main-nav {
   display: flex;
-}
+} */
+
+/* .nav-list {
+  display: flex;
+} */
 
 .logo {
   /* font-family: 'Raleway';
@@ -106,6 +112,23 @@ img {
   font-size: 26px;
   line-height: calc(31 / 26);
 } 
+
+.logo-up {
+  display: flex;
+  align-items: center;
+  margin-right: 93px;
+}
+
+.main-nav {
+  margin-right: auto;
+} 
+
+.nav-list,
+.cnt-list {
+  display: flex;
+  gap: 50px;
+  padding-left: 0;
+}
 
 .accent {
   color: var(--accent-cl);
@@ -135,6 +158,9 @@ img {
 }
 
 .nav-link {
+  padding-top: 32px;
+  display: block;
+  padding-bottom: 32px;
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
@@ -147,6 +173,10 @@ img {
   letter-spacing: 0.02em;
 }
 
+.header-group {
+  display: flex;
+  align-items: center;
+}
 /* Hero */
 
 .hero-btn {
@@ -219,6 +249,11 @@ img {
 }
 
 /* Portfolio */
+
+.prtf-title,
+.pecul-title {
+  visibility: hidden;
+}
 
 .prtf-btn,
 .active {
