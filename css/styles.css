@@ -47,7 +47,7 @@ img {
   padding-right: 15px;
   margin: 0 auto;
   display: flex;
-  
+
   outline: 2px solid red;
   outline-offset: -2px;
 }
@@ -111,7 +111,7 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-} 
+}
 
 .logo-up {
   display: flex;
@@ -121,11 +121,12 @@ img {
 
 .main-nav {
   margin-right: auto;
-} 
+}
 
 .nav-list,
 .cnt-list {
   display: flex;
+  align-items: center;
   gap: 50px;
   padding-left: 0;
 }
@@ -179,9 +180,30 @@ img {
 }
 /* Hero */
 
+.hero-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  flex-direction: column;
+}
+
+.hero-title {
+  width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
 .hero-btn {
+  padding: 10px 32px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0;
   background-color: var(--accent-cl);
   color: var(--light-txt-cl);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
 }
 
 .hero-title {
@@ -191,16 +213,6 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-
-.hero-btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30 / 16);
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
 }
 
 /* Peculiarities */
