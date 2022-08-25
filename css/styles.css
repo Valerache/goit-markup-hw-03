@@ -369,8 +369,30 @@ img {
 
 /* Footer */
 
-.addr-link {
-  font-style: normal;
+.footer-container {
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.addr-list {
+  padding-inline-start: 0;
+}
+
+.addr-item {
+  margin-bottom: 9px;
+}
+
+.addr-item:last-child {
+  margin-bottom: 0;
+}
+
+.logo-but {
+  margin-bottom: 20px;
+}
+
+.addr-link: {
+   font-style: normal;
 }
 
 .tm {
