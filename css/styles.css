@@ -216,7 +216,7 @@ img {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: calc(16 / 14);
-} 
+}
 
 .pecul-item {
   width: 270px;
@@ -224,10 +224,22 @@ img {
 
 /* About */
 
+.about-container {
+  flex-direction: column;
+}
+
 .about-title {
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
+}
+
+.about-list {
+  display: flex;
+  margin-bottom: 94px;
+  padding-inline-start: 0;
+  gap: 30px;
 }
 
 /* Team */
