@@ -89,6 +89,10 @@ img {
 
 /* Header */
 
+.header-container {
+  border-bottom: 1px solid #ECECEC;
+}
+
 .logo {
   font-family: var(--scn-font);
   font-weight: 700;
