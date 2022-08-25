@@ -89,24 +89,7 @@ img {
 
 /* Header */
 
-.header-container {
-  /* display: flex; */
-}
-
-/* .main-nav {
-  display: flex;
-} */
-
-/* .nav-list {
-  display: flex;
-} */
-
 .logo {
-  /* font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: calc(31 / 26); */
-
   font-family: var(--scn-font);
   font-weight: 700;
   font-size: 26px;
@@ -217,9 +200,26 @@ img {
 
 /* Peculiarities */
 
+.pecul-container {
+  flex-direction: column;
+}
+
+.pecul-list {
+  display: flex;
+  padding-top: 58px;
+  padding-bottom: 94px;
+  justify-content: space-between;
+  padding-inline-start: 0;
+}
+
 .pecul-title {
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: calc(16 / 14);
+} 
+
+.pecul-item {
+  width: 270px;
 }
 
 /* About */
@@ -263,7 +263,7 @@ img {
 /* Portfolio */
 
 .prtf-title,
-.pecul-title {
+.pecul-main-title {
   visibility: hidden;
 }
 
