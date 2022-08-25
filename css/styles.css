@@ -244,6 +244,22 @@ img {
 
 /* Team */
 
+.team-container {
+  padding-top: 94px;
+  padding-bottom: 30px;
+  flex-direction: column;
+}
+
+.team-list {
+  display: flex;
+  padding-inline-start: 0;
+  justify-content: space-between;
+}
+
+.team-img {
+  margin-bottom: 30px;
+}
+
 .team {
   background-color: #f5f4fa;
 }
@@ -254,12 +270,14 @@ img {
 }
 
 .team-main-title {
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
 }
 
 .team-title {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
