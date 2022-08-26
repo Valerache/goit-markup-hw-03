@@ -128,7 +128,7 @@ img {
 }
 
 .light {
-  color: #ffffff;
+  color: var(--light-txt-cl);
 }
 
 .dark {
@@ -136,7 +136,7 @@ img {
 }
 
 .header {
-  background-color: #ffffff;
+  background-color: var(--light-txt-cl);
 }
 
 .nav-link:hover,
@@ -283,7 +283,7 @@ img {
 
 .team-img,
 .img-link {
-  background-color: #ffffff;
+  background-color: var(--light-txt-cl);
 }
 
 .team-main-title {
@@ -312,6 +312,12 @@ img {
 .prtf {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: var(--light-bg-cl);
+}
+
+.img-item {
+  background-color: var(--light-txt-cl);
+  border: 1px solid #EEEEEE;
 }
 
 .prtf-container {
