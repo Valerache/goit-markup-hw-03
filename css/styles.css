@@ -26,6 +26,16 @@ body {
 }
 
 /* reset */
+
+html {
+	box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
 h1,
 h2,
 h3,
@@ -48,8 +58,8 @@ img {
   margin: 0 auto;
   display: flex;
 
-  /* outline: 2px solid red;
-  outline-offset: -2px; */
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .pecul-subtitle,
@@ -57,11 +67,6 @@ img {
 .prtf-tex {
   color: var(--scn-txt-cl);
 }
-
-/* Как вариант */
-/* p {
-   color: var(--scn-txt-cl); 
-} */
 
 .hero,
 .footer {
@@ -204,9 +209,13 @@ img {
 
 /* Peculiarities */
 
+.pecul {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  background-color: var(--light-bg-cl)
+}
+
 .pecul-container {
-  margin-top: 58px;
-  margin-bottom: 94px;
   flex-direction: column;
 }
 
@@ -228,8 +237,12 @@ img {
 
 /* About */
 
+.about {
+  background-color: var(--light-bg-cl)
+}
+
 .about-container {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
   flex-direction: column;
 }
 
@@ -296,9 +309,12 @@ img {
 
 /* Portfolio */
 
+.prtf {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .prtf-container {
-  margin-top: 58px;
-  margin-bottom: 94px;
   flex-direction: column;
 }
 
@@ -326,11 +342,18 @@ img {
   margin-bottom: 20px;
 }
 
-
-
-.prtf-main-title,
-.pecul-main-title {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .prtf-btn,
