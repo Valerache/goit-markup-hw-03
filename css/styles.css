@@ -86,6 +86,11 @@ img {
   list-style: none;
 }
 
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 /* Header */
 
 .header {
@@ -200,16 +205,6 @@ img {
 }
 
 /* Peculiarities */
-
-.pecul {
-  padding-bottom: 94px;
-  padding-top: 94px;
-  background-color: var(--light-bg-cl)
-}
-
-.pecul-container {
-  flex-direction: column;
-}
 
 .pecul-list {
   display: flex;
