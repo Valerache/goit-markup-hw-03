@@ -56,10 +56,9 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  display: flex;
 
-  /* outline: 2px solid red;
-  outline-offset: -2px; */
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 .pecul-subtitle,
@@ -94,8 +93,14 @@ img {
 
 /* Header */
 
-.header-container {
+.header {
   border-bottom: 1px solid #ECECEC;
+  background-color: var(--light-txt-cl);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -106,7 +111,6 @@ img {
 }
 
 .logo-up {
-  display: flex;
   align-items: center;
   margin-right: 93px;
 }
@@ -133,10 +137,6 @@ img {
 
 .dark {
   color: #000000;
-}
-
-.header {
-  background-color: var(--light-txt-cl);
 }
 
 .nav-link:hover,
