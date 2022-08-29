@@ -264,9 +264,9 @@ img {
   justify-content: space-between;
 }
 
-.team-img {
+/* .team-img {
   padding-bottom: 30px;
-}
+} */
 
 .team {
   background-color: #f5f4fa;
@@ -275,6 +275,11 @@ img {
 .team-img,
 .img-link {
   background-color: var(--light-txt-cl);
+}
+
+.team-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .team-main-title {
@@ -296,7 +301,6 @@ img {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
-  padding-bottom: 30px;
 }
 
 /* Portfolio */
